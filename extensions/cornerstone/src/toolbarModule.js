@@ -122,13 +122,22 @@ const definitions = [
         commandOptions: { toolName: 'WwwcRegion' },
       },
       {
-        id: 'DragProbe',
+        id: 'Probe',
         label: 'Probe',
         icon: 'dot-circle',
         //
         type: TOOLBAR_BUTTON_TYPES.SET_TOOL_ACTIVE,
         commandName: 'setToolActive',
-        commandOptions: { toolName: 'DragProbe' },
+        commandOptions: { toolName: 'Probe' },
+      },
+      {
+        id: 'AIProbe',
+        label: 'AI Probe',
+        icon: 'circle-o',
+        //
+        type: TOOLBAR_BUTTON_TYPES.SET_TOOL_ACTIVE,
+        commandName: 'setToolActive',
+        commandOptions: { toolName: 'AIProbe' },
       },
       {
         id: 'EllipticalRoi',

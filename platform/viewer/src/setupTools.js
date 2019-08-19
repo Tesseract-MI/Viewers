@@ -212,6 +212,24 @@ export default function setupTools(store) {
       },
       mouseButtonMasks: [1],
     },
+    {
+      name: 'AIProbe',
+      props: {
+        configuration: {
+          getMeasurementLocationCallback: toolLabellingFlowCallback,
+        },
+      },
+      mouseButtonMasks: [1],
+    },
+    {
+      name: 'Probe',
+      props: {
+        configuration: {
+          getMeasurementLocationCallback: toolLabellingFlowCallback,
+        },
+      },
+      mouseButtonMasks: [1],
+    },
     { name: 'DragProbe' },
     { name: 'PanMultiTouch' },
     { name: 'ZoomTouchPinch' },
